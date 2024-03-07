@@ -16,7 +16,6 @@ app.use((req, res, next) => {
   next();
 });
 
-
 app.use('/create', createRoute);
 app.use('/', viewRoute);
 app.use('/', homeRoute);
