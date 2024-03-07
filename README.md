@@ -45,11 +45,6 @@ GET /:code
 
 The API limits requests from the same IP address. By default, each IP address can make 10 requests in 10 minutes. This rate limiting policy helps prevent excessive requests.
 
-Example Usage:
-```
-GET /rateLimit
-```
-
 ## 📝 Example Usage
 
 Below are a few scenarios that demonstrate the example usage of the API.
