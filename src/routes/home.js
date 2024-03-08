@@ -5,7 +5,8 @@ router.get('/', (req, res) => {
     const jsonResponse = {
         "message": "Welcome to the URL Shortener API. Create a new short URL by making a POST request to /create/:url. View a short URL by making a GET request to /:code.",
         "endpoints": {
-            "create": "/create/:url",
+            "Create Random Code": "/:url",
+            "Create Custom Code": "/:url/:code",
             "view": "/:code"
         },
         "rateLimit": {

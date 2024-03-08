@@ -27,9 +27,14 @@ GET /
 
 This endpoint is used to shorten a given URL. The user can make a POST request to shorten a URL. This endpoint can also be used to set a custom URL code.
 
-Example Usage:
+Create Random Code:
 ```
-POST /create/:url
+POST /:url
+```
+
+Create Custom Code:
+```
+POST /:url/:code
 ```
 
 ## 🔗 URL Viewing
