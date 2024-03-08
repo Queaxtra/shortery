@@ -3,7 +3,7 @@ const router = express.Router();
 
 router.get('/', (req, res) => {
     const jsonResponse = {
-        "message": "Welcome to the URL Shortener API. Create a new short URL by making a POST request to /create/:url. View a short URL by making a GET request to /:code.",
+        "message": "Welcome to the URL Shortener API.",
         "endpoints": {
             "create random code": "/:url",
             "create custom code": "/:url/:code",
